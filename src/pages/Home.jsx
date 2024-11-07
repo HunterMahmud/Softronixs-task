@@ -2,6 +2,7 @@ import React from 'react';
 import AboutUs from '../components/AboutUs';
 import Banner from '../components/Banner';
 import Navbar from '../components/Navbar';
+import Project from '../components/Project';
 import Services from '../components/Services';
 import WorkPolicy from '../components/WorkPolicy';
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Services/>
             <AboutUs/>
             <WorkPolicy/>
+            <Project/>
         </div>
     );
 };
