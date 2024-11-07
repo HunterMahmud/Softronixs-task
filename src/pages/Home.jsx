@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutUs from '../components/AboutUs';
 import Banner from '../components/Banner';
+import Blog from '../components/Blog';
 import Navbar from '../components/Navbar';
 import Project from '../components/Project';
 import Services from '../components/Services';
@@ -21,6 +22,7 @@ const Home = () => {
             <Project/>
             <Team/>
             <Testimonials/>
+            <Blog/>
         </div>
     );
 };
