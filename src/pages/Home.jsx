@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../components/Banner';
 import Navbar from '../components/Navbar';
+import Services from '../components/Services';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <div className='h-[1px] bg-[#1716164d] w-full'>
             </div>
             <Banner/>
+            <Services/>
         </div>
     );
 };
