@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -7,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'space-grotesk': ['"Space Grotesk"', 'sans-serif'], // Define the custom font family
+        'grotesk': ['"Space Grotesk"', 'sans-serif'], // Define the custom font family
       },
     },
   },

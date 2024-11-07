@@ -4,7 +4,7 @@ import { FaSortDown } from "react-icons/fa";
 
 function Navbar() {
     return (
-        <nav className="bg-[#00206D] text-white p-4 font-space-grotesk">
+        <nav className="bg-[#00206D] text-white p-4 font-grotesk">
             <div className="custom-container mx-auto flex items-center justify-between">
                 <div className='flex items-center justify-between'>
                     {/* Logo */}
@@ -26,7 +26,7 @@ function Navbar() {
                     </div>
 
                     {/* Menu Items */}
-                    <div className="ml-10 font-bold hidden md:flex space-x-6 font-space-grotesk">
+                    <div className="ml-10 font-bold hidden md:flex space-x-6 font-grotesk">
                         <a href="#" className="flex  justify-center items-center hover:text-blue-300">Home <FaSortDown className='pl-2 text-[16px]'/></a>
                         <a href="#" className="flex  justify-center items-center hover:text-blue-300">Pages<FaSortDown className='pl-2 text-[16px]'/></a>
                         <a href="#" className="flex  justify-center items-center hover:text-blue-300">Portfolio<FaSortDown className='pl-2 text-[16px]'/></a>

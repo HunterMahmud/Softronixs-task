@@ -4,10 +4,9 @@ import Navbar from '../components/Navbar';
 
 const Home = () => {
     return (
-        <div>
+        <div className='max-w-[1600px] mx-auto'>
             <Navbar />
-            <div>
-                <span className='h-3 w-full bg-red-500'></span>
+            <div className='h-[1px] bg-[#1716164d] w-full'>
             </div>
             <Banner/>
         </div>
