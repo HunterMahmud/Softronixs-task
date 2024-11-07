@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Project from '../components/Project';
 import Services from '../components/Services';
 import Team from '../components/Team';
+import Testimonials from '../components/Testimonials';
 import WorkPolicy from '../components/WorkPolicy';
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <WorkPolicy/>
             <Project/>
             <Team/>
+            <Testimonials/>
         </div>
     );
 };
