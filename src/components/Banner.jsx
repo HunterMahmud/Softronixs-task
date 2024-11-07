@@ -4,7 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 const Banner = () => {
     return (
         <div>
-            <div className='font-grotesk bg-[#00206d] py-[100px] flex items-center justify-center'>
+            <div className='font-Grotesk bg-[#00206d] py-[100px] flex items-center justify-center'>
                 <div className='custom-container flex justify-between h-[330px] '>
                     <div>
                         <span className="flex w-[660px] h-[330px] justify-start items-start font text-[100px] font-bold leading-[110px] text-white tracking-[-4px]  text-left z-[35]">

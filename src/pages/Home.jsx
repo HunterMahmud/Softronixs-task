@@ -13,7 +13,7 @@ import WorkPolicy from '../components/WorkPolicy';
 
 const Home = () => {
     return (
-        <div className='max-w-[1600px] mx-auto'>
+        <div className='max-w-[1600px] mx-auto font-Grotesk'>
             <Navbar />
             <div className='h-[1px] bg-[#1716164d] w-full'>
             </div>
