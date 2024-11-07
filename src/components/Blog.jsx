@@ -58,7 +58,7 @@ const Blog = () => {
                             </span>
                             26 June 2024
                         </p>
-                        <h4 className='text-[24px] font-semibold text-[#00206D] '>How You Can Find A Design Job You Will Truly</h4>
+                        <h4 className='text-[24px] font-semibold text-[#00206D] '>The Missing Advice I Needed When Starting My Career</h4>
                         
                         <div className='flex items-center gap-1 text-[#0147FF]'>
                             <button className='font-bold '>Read More </button>
@@ -87,7 +87,7 @@ const Blog = () => {
                             </span>
                             26 June 2024
                         </p>
-                        <h4 className='text-[24px] font-semibold text-[#00206D] '>How You Can Find A Design Job You Will Truly</h4>
+                        <h4 className='text-[24px] font-semibold text-[#00206D] '>How to Craft The Perfect Web Design and Developer</h4>
                         
                         <div className='flex items-center gap-1 text-[#0147FF]'>
                             <button className='font-bold '>Read More </button>
