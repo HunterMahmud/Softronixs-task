@@ -48,14 +48,6 @@ const WorkPolicy = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
                 </div>
                 <div className='flex justify-center items-center gap-3'>
                     <img className='w-2 h-2' src="/Ellipse.png" alt="" />

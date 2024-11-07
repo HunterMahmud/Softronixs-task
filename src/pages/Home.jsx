@@ -4,6 +4,7 @@ import Banner from '../components/Banner';
 import Navbar from '../components/Navbar';
 import Project from '../components/Project';
 import Services from '../components/Services';
+import Team from '../components/Team';
 import WorkPolicy from '../components/WorkPolicy';
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <AboutUs/>
             <WorkPolicy/>
             <Project/>
+            <Team/>
         </div>
     );
 };
