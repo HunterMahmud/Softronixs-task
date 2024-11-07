@@ -1,5 +1,5 @@
 <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="1" y="1" width="58" height="58" rx="29" fill="url(#pattern0_17_6)" stroke="#FEFEFE" stroke-width="2"/>
+<rect x="1" y="1" width="58" height="58" rx="29" fill="url(#pattern0_17_6)" stroke="#FEFEFE" strokeWidth="2"/>
 <defs>
 <pattern id="pattern0_17_6" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_17_6" transform="translate(0 -0.0298742) scale(0.00157233)"/>

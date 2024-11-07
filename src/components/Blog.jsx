@@ -16,7 +16,7 @@ const Blog = () => {
                         <p className='text-[#0147FF] flex gap-2 items-center'>Knowledge
                             <span>
                                 <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_45_76)">
+                                    <g clipPath="url(#clip0_45_76)">
                                         <path d="M2.50033 5.08463C3.65091 5.08463 4.58366 4.15188 4.58366 3.0013C4.58366 1.85071 3.65091 0.917969 2.50033 0.917969C1.34973 0.917969 0.416992 1.85071 0.416992 3.0013C0.416992 4.15188 1.34973 5.08463 2.50033 5.08463Z" fill="#0147FF" />
                                     </g>
                                     <defs>
@@ -45,7 +45,7 @@ const Blog = () => {
                         <p className='text-[#0147FF] flex gap-2 items-center'>Knowledge
                             <span>
                                 <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_45_76)">
+                                    <g clipPath="url(#clip0_45_76)">
                                         <path d="M2.50033 5.08463C3.65091 5.08463 4.58366 4.15188 4.58366 3.0013C4.58366 1.85071 3.65091 0.917969 2.50033 0.917969C1.34973 0.917969 0.416992 1.85071 0.416992 3.0013C0.416992 4.15188 1.34973 5.08463 2.50033 5.08463Z" fill="#0147FF" />
                                     </g>
                                     <defs>
@@ -74,7 +74,7 @@ const Blog = () => {
                         <p className='text-[#0147FF] flex gap-2 items-center'>Knowledge
                             <span>
                                 <svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_45_76)">
+                                    <g clipPath="url(#clip0_45_76)">
                                         <path d="M2.50033 5.08463C3.65091 5.08463 4.58366 4.15188 4.58366 3.0013C4.58366 1.85071 3.65091 0.917969 2.50033 0.917969C1.34973 0.917969 0.416992 1.85071 0.416992 3.0013C0.416992 4.15188 1.34973 5.08463 2.50033 5.08463Z" fill="#0147FF" />
                                     </g>
                                     <defs>

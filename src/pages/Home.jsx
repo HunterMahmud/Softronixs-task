@@ -2,6 +2,7 @@ import React from 'react';
 import AboutUs from '../components/AboutUs';
 import Banner from '../components/Banner';
 import Blog from '../components/Blog';
+import ConnectWithUs from '../components/ConnectWithUs';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Project from '../components/Project';
@@ -23,6 +24,7 @@ const Home = () => {
             <Project/>
             <Team/>
             <Testimonials/>
+            <ConnectWithUs/>
             <Blog/>
             <Footer/>
         </div>

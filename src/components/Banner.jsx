@@ -42,9 +42,6 @@ const Banner = () => {
                                 trusted customers
                             </span>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
