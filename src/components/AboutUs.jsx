@@ -2,17 +2,17 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div className='w-[1296px] mx-auto my-32'>
-            <div className='flex items-center justify-between'>
-                <div className='flex justify-between items-center gap-5'>
+        <div className=' mx-auto my-20 lg:my-32 px-2 md:px-5 lg:px-16 xl:px-20 2xl:px-32'>
+            <div className='flex flex-col lg:flex-row items-center justify-between gap-5 lg:gap-10 '>
+                <div className='flex  justify-between items-center gap-5'>
                     <div className='space-y-5'>
-                        <img className='w-[306px] h-[450px]' src="/lab1.png" alt="lab" />
-                        <p className='w-[306] h-[126px] flex justify-evenly bg-[#0147FF] items-center font-bold text-white'>
-                            <span className='text-[64px]'>25+</span><span className='text-[20px]'>Year of <br /> experience</span>
+                        <img className='w-full h-full lg:w-[306px] lg:h-[450px] object-cover' src="/lab1.png" alt="lab" />
+                        <p className='px-3 py-[18px] lg:px-6 flex justify-evenly bg-[#0147FF] items-center font-bold text-white'>
+                            <span className='text-[20px] md:text-[40px] lg:text-[64px]'>25+</span><span className='text-[20px]'>Year of <br /> experience</span>
                         </p>
                     </div>
-                    <div className='space-y-5'>
-                        <p className='w-[266px] h-[74px]'>
+                    <div className='space-y-5  hidden md:block'>
+                        <p className='w-[266px] h-[74px] object-cover'>
                             <svg width="266" height="74" viewBox="0 0 266 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.19955 0C0.49982 0 0 0.496632 0 1.29126C0 1.98657 0.49982 2.48322 1.19955 2.48322C1.89928 2.48322 2.49904 1.98657 2.49904 1.29126C2.49904 0.496632 1.89928 0 1.19955 0Z" fill="#180030" fillOpacity="0.4" />
                                 <path d="M13.1769 0C12.4771 0 11.9773 0.496632 11.9773 1.29126C11.9773 1.98657 12.4771 2.48322 13.1769 2.48322C13.8766 2.48322 14.4763 1.98657 14.4763 1.29126C14.4763 0.496632 13.8766 0 13.1769 0Z" fill="#180030" fillOpacity="0.4" />
@@ -176,21 +176,20 @@ const AboutUs = () => {
                                 <path d="M252.723 71.5167C252.023 71.5167 251.524 72.0134 251.524 72.808C251.524 73.5033 252.023 73.9999 252.723 73.9999C253.423 73.9999 254.023 73.5033 254.023 72.808C254.023 72.0134 253.423 71.5167 252.723 71.5167Z" fill="#180030" fillOpacity="0.4" />
                                 <path d="M264.7 71.5167C264.001 71.5167 263.501 72.0134 263.501 72.808C263.501 73.5033 264.001 73.9999 264.7 73.9999C265.4 73.9999 266 73.5033 266 72.808C266 72.0134 265.4 71.5167 264.7 71.5167Z" fill="#180030" fillOpacity="0.4" />
                             </svg>
-
                         </p>
-                        <img className='w-[306px] h-[500px]' src="/lab2.png" alt="lab" />
+                        <img className='w-[306px] h-[500px] object-cover' src="/lab2.png" alt="lab" />
                     </div>
                 </div>
-                <div className='w-[550px] h-[468px] space-y-7'>
-                   <h2 className='text-[52px] text-[#00206D] font-bold w-[550px]'>Redesigning business for solutions</h2>
-                   <p className='w-full text-[18px] text-[#656C7E]'>Take your life to the next level with Rise,business consultation with our expert with 10+ years of experience.</p>
-                   <div className='space-y-3 text-[#00206D] text-[18px]'>
-                        <p className='flex gap-2'> <img className='w-7 h-7' src="/mark.svg" alt="mark" /> Integrate a diverse range of ideas</p>
-                        <p className='flex gap-2'> <img className='w-7 h-7' src="/mark.svg" alt="mark" />Deliver the highest quality outcomes</p>
-                        <p className='flex gap-2'> <img className='w-7 h-7' src="/mark.svg" alt="mark" />Believe in powerof implication</p>
+                <div className='space-y-7'>
+                   <h2 className='text-[30px] lg:text-[52px] text-[#00206D] font-bold text-center lg:text-left'>Redesigning business for solutions</h2>
+                   <p className='w-full text-[18px] text-[#656C7E] text-center lg:text-left max-w-[500px]'>Take your life to the next level with Rise,business consultation with our expert with 10+ years of experience.</p>
+                   <div className='space-y-3 text-[#00206D] text-[16px] lg:text-[18px] flex flex-col justify-center items-center lg:justify-start lg:items-start'>
+                        <p className='flex gap-2'> <img className='w-5 h-5 lg:w-7 lg:h-7' src="/mark.svg" alt="mark" /> Integrate a diverse range of ideas</p>
+                        <p className='flex gap-2'> <img className='w-5 h-5 lg:w-7 lg:h-7' src="/mark.svg" alt="mark" />Deliver the highest quality outcomes</p>
+                        <p className='flex gap-2'> <img className='w-5 h-5 lg:w-7 lg:h-7' src="/mark.svg" alt="mark" />Believe in powerof implication</p>
                    </div>
-                   <div>
-                    <button className='bg-[#0147FF] text-white font-bold py-5 px-9'>More About Us</button>
+                   <div className='flex justify-center items-center lg:justify-start'>
+                    <button className='bg-[#0147FF] text-white font-bold py-3 px-5 lg:py-5 lg:px-9'>More About Us</button>
                    </div>
                 </div>
             </div>

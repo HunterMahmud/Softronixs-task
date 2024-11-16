@@ -11,7 +11,7 @@ const Banner = () => {
                             Consultations drive business growth
                         </span>
                     </div>
-                    <div className='flex flex-col gap-10'>
+                    <div className='flex flex-col gap-10 '>
                         <span className="text-base md:text-[18px] px-2 md:px-0 text-center md:text-left font-normal text-[#f2f6ff]">
                             Studio agencies excel in graphic design, design, branding, and visual
                             elements, offering comprehensive solutions for businesses' design
