@@ -19,9 +19,9 @@ const Home = () => {
             </div>
              <Banner/> 
            <Services/>
-             <AboutUs/>
-           {/* <WorkPolicy/>
-            <Project/>
+             {/* <AboutUs/> */}
+          <WorkPolicy/>
+            {/*  <Project/>
             <Team/>
             <Testimonials/>
             <ConnectWithUs/>

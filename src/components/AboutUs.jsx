@@ -181,7 +181,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className='space-y-7'>
-                   <h2 className='text-[30px] lg:text-[52px] text-[#00206D] font-bold text-center lg:text-left'>Redesigning business for solutions</h2>
+                   <h2 className='text-[30px] lg:text-[64px] text-[#00206D] font-bold text-center lg:text-left'>Redesigning business for solutions</h2>
                    <p className='w-full text-[18px] text-[#656C7E] text-center lg:text-left max-w-[500px]'>Take your life to the next level with Rise,business consultation with our expert with 10+ years of experience.</p>
                    <div className='space-y-3 text-[#00206D] text-[16px] lg:text-[18px] flex flex-col justify-center items-center lg:justify-start lg:items-start'>
                         <p className='flex gap-2'> <img className='w-5 h-5 lg:w-7 lg:h-7' src="/mark.svg" alt="mark" /> Integrate a diverse range of ideas</p>

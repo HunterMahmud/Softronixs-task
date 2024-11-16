@@ -38,7 +38,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-[#00206d] pb-[90px] flex justify-end'>
+            {/* <div className='bg-[#00206d] pb-[90px] flex justify-end'>
                 <div className='flex justify-end w-full h-[350px] sm:h-[500px] md:h-[450px] lg:h-[750px]  relative'>
                     <img src="/banner1.jpg" alt="banner" className='w-full h-full object-cover object-top lg:pl-16 xl:pl-20 2xl:pl-32' />
                     <div className='absolute right-10 top-7 h-[60px] w-[60px] lg:w-[120px] lg:h-[120px] bg-white flex items-center justify-center rounded-full'>
@@ -47,7 +47,7 @@ const Banner = () => {
                         </button>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
