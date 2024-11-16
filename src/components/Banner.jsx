@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div>
             <div className=' font-Grotesk bg-[#00206d] py-[50px] md:py-[100px] flex items-center justify-center'>
-                <div className='flex flex-col md:flex-row justify-between gap-5 px-2 md:px-5 lg:px-16 2xl:px-32'>
+                <div className='flex flex-col md:flex-row justify-between gap-5 px-2 md:px-5 lg:px-16 xl:px-20 2xl:px-32'>
                     <div className='text-center'>
                         <span className="text-[40px] md:text-[60px] xl:text-[90px] font-bold text-white">
                             Consultations drive business growth

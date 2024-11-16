@@ -5,7 +5,7 @@ import { FaSortDown } from "react-icons/fa";
 function Navbar() {
     return (
         <nav className="bg-[#00206D] text-white p-4 font-Grotesk">
-            <div className=" mx-auto flex items-center justify-between">
+            <div className=" mx-auto flex items-center justify-between lg:px-16 xl:px-20 2xl:px-32">
                 <div className='flex items-center justify-between'>
                     {/* Logo */}
                     <div className="flex items-center space-x-2">
