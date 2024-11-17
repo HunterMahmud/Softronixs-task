@@ -2,17 +2,17 @@ import React from 'react';
 
 const Team = () => {
     return (
-        <div className='bg-[#00206D] '>
-            <div className='py-[124px] w-[1296px] mx-auto space-y-12'>
+        <div className='bg-[#00206D] px-2 md:px-5 lg:px-16 xl:px-20 2xl:px-32'>
+            <div className='py-[80px] lg:py-[124px] mx-auto space-y-12'>
                 <div className='flex justify-center items-center'>
-                    <h1 className='text-center w-[636px] text-[52px] text-white font-bold'>Meet the experts behind your success</h1>
+                    <h1 className='text-center text-[30px] lg:text-[52px] text-white font-bold'>Meet the experts behind your success</h1>
                 </div>
                 {/* image */}
-                <div className='flex items-center gap-6'>
-                    <div className='w-[306px] h-[380px]  '>
+                <div className='flex items-center justify-between gap-6'>
+                    <div className='w-[306px] h-[380px] hidden lg:block'>
                         <img className='w-[306px] h-[380px]' src="/team1.png" alt="" />
                     </div>
-                    <div className='w-[306px] h-[380px]  '>
+                    <div className='w-[306px] h-[380px] mx-auto lg:mx-0'>
                         <div className="relative w-[306px] h-[380px]">
                             {/* Image */}
                             <img
@@ -33,10 +33,10 @@ const Team = () => {
 
 
                     </div>
-                    <div className='w-[306px] h-[380px]  '>
+                    <div className='w-[306px] h-[380px]  hidden lg:block'>
                         <img className='w-[306px] h-[380px]' src="/team3.png" alt="" />
                     </div>
-                    <div className='w-[306px] h-[380px]  '>
+                    <div className='w-[306px] h-[380px] hidden xl:block'>
                         <img className='w-[306px] h-[380px]' src="/team4.jpeg" alt="" />
                     </div>
 
