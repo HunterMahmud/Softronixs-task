@@ -13,10 +13,10 @@ const Testimonials = () => {
                                 <div className='w-full h-full bg-[url(../team-01.jpg)]  bg-no-repeat rounded-full absolute top-0 left-0 z-[45]' />
                             </div>
                             <div className='w-[60px] h-[60px] shrink-0 relative z-[46] ml-[-25px]'>
-                                <div className='w-full h-full bg-[url(./team-03.svg)]  bg-no-repeat rounded-full absolute top-0 left-0 z-[47]' />
+                                <div className='w-full h-full bg-[url(../team-03.svg)]  bg-no-repeat rounded-full absolute top-0 left-0 z-[47]' />
                             </div>
                             <div className='w-[60px] h-[60px] shrink-0 relative z-[48] ml-[-25px]'>
-                                <div className='w-full h-full bg-[url(./team-03.svg)]  bg-no-repeat rounded-full absolute top-0 left-0 z-[49]' />
+                                <div className='w-full h-full bg-[url(../team-03.svg)]  bg-no-repeat rounded-full absolute top-0 left-0 z-[49]' />
                             </div>
                             <div className='w-[60px] h-[60px] shrink-0 relative z-[50] ml-[-25px]'>
                                 <div className='w-full h-full font-bold border-2 border-white flex justify-center items-center bg-[#0147FF] text-white rounded-full absolute top-0 left-0 z-[51]' > 10k </div>
