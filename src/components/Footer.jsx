@@ -25,17 +25,17 @@ const Footer = () => {
                         </div>
                         <div className='space-y-4 mt-4 mx-auto'>
                             <p className='md:text-[18px] text-center w-full max-w-[300px]'>Each demo built with Teba will look different. You can customize almost anythin appearance of your website with only a few.</p>
-                            <div className='flex gap-2 justify-center lg:justify-start items-center text-center w-full'>
+                            <div className='flex gap-2 justify-center items-center text-center w-full'>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M16.625 17.5C14.8889 17.5 13.1701 17.125 11.4688 16.375C9.76736 15.625 8.22222 14.5556 6.83333 13.1667C5.44444 11.7778 4.375 10.2361 3.625 8.54167C2.875 6.84722 2.5 5.125 2.5 3.375V2.5H7.41667L8.1875 6.6875L5.8125 9.08333C6.11806 9.625 6.45833 10.1389 6.83333 10.625C7.20833 11.1111 7.61111 11.5625 8.04167 11.9792C8.44444 12.3819 8.88542 12.7674 9.36458 13.1354C9.84375 13.5035 10.3611 13.8472 10.9167 14.1667L13.3333 11.75L17.5 12.6042V17.5H16.625Z" fill="white" />
                                 </svg>
-                                <p>123-456-7890</p>
+                                <p className='text-center'>123-456-7890</p>
                             </div>
-                            <div className='flex gap-2 justify-center lg:justify-start items-center text-center w-full'>
+                            <div className='flex gap-2 justify-center items-center text-center w-full'>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.66666 16.6663V3.33301H18.3333V16.6663H1.66666ZM9.99999 10.833L16.6667 6.66634V4.99967L9.99999 9.16634L3.33332 4.99967V6.66634L9.99999 10.833Z" fill="white" />
                                 </svg>
-                                <p>flexio@example.com</p>
+                                <p className='text-center'>flexio@example.com</p>
                             </div>
 
                         </div>
