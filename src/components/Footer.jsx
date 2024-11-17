@@ -3,9 +3,10 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-[#00206D] pb-[60px]'>
-            <div className='w-[1296px] mx-auto text-white'>
-                <div className='flex justify-between py-[124px]'>
-                    <div className='w-[416px] '>
+            <div className='px-2 md:px-5 lg:px-16 xl:px-20 2xl:px-32 mx-auto  text-white'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-between py-[80px] lg:py-[124px] gap-10 items-center mx-auto'>
+                    {/* website logo with links */}
+                    <div className='flex flex-col items-center justify-between mx-auto'>
                         {/* Logo */}
                         <div className="flex items-center space-x-2">
                             <span className="text-2xl font-bold">
@@ -19,20 +20,18 @@ const Footer = () => {
                                         </clipPath>
                                     </defs>
                                 </svg>
-
                             </span>
                             <span className="text-[29px] font-bold">Flexio</span>
                         </div>
-                        <div className='space-y-4 mt-4'>
-
-                            <p className=' text-[18px]'>Each demo built with Teba will look different. You can customize almost anythin appearance of your website with only a few.</p>
-                            <div className='flex gap-2  items-center'>
+                        <div className='space-y-4 mt-4 mx-auto'>
+                            <p className='md:text-[18px] text-center lg:text-left w-full max-w-[300px]'>Each demo built with Teba will look different. You can customize almost anythin appearance of your website with only a few.</p>
+                            <div className='flex gap-2 justify-center lg:justify-start items-center text-center w-full'>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M16.625 17.5C14.8889 17.5 13.1701 17.125 11.4688 16.375C9.76736 15.625 8.22222 14.5556 6.83333 13.1667C5.44444 11.7778 4.375 10.2361 3.625 8.54167C2.875 6.84722 2.5 5.125 2.5 3.375V2.5H7.41667L8.1875 6.6875L5.8125 9.08333C6.11806 9.625 6.45833 10.1389 6.83333 10.625C7.20833 11.1111 7.61111 11.5625 8.04167 11.9792C8.44444 12.3819 8.88542 12.7674 9.36458 13.1354C9.84375 13.5035 10.3611 13.8472 10.9167 14.1667L13.3333 11.75L17.5 12.6042V17.5H16.625Z" fill="white" />
                                 </svg>
                                 <p>123-456-7890</p>
                             </div>
-                            <div className='flex gap-2  items-center'>
+                            <div className='flex gap-2 justify-center lg:justify-start items-center text-center w-full'>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.66666 16.6663V3.33301H18.3333V16.6663H1.66666ZM9.99999 10.833L16.6667 6.66634V4.99967L9.99999 9.16634L3.33332 4.99967V6.66634L9.99999 10.833Z" fill="white" />
                                 </svg>
@@ -41,34 +40,34 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className='flex flex-col gap-3'>
-                        <h5 className='text-[20px] font-bold'>Quick Links</h5>
-                        <a className='text-[18px]' href="">About Us</a>
-                        <a className='text-[18px]' href="">Our Team</a>
-                        <a className='text-[18px]' href="">Pricing Plans</a>
-                        <a className='text-[18px]' href="">Blogs</a>
-                        <a className='text-[18px]' href="">Contact Us</a>
+                    <div className='flex flex-col gap-3 justify-center items-center md:items-start'>
+                        <h5 className='text-[20px] font-bold text-center w-full'>Quick Links</h5>
+                        <a className='md:text-[18px]  text-center w-full' href="">About Us</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Our Team</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Pricing Plans</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Blogs</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Contact Us</a>
                     </div>
-                    <div className='flex flex-col gap-3'>
-                        <h5 className='text-[20px] font-bold'>Services</h5>
-                        <a className='text-[18px]' href="">UI/UX Design</a>
-                        <a className='text-[18px]' href="">App Development</a>
-                        <a className='text-[18px]' href="">Digital Marketing</a>
-                        <a className='text-[18px]' href="">Web Development</a>
-                        <a className='text-[18px]' href="">Cyber Security</a>
+                    <div className='flex flex-col gap-3 justify-center items-center md:items-start'>
+                        <h5 className='text-[20px] font-bold text-center w-full'>Services</h5>
+                        <a className='md:text-[18px]  text-center w-full' href="">UI/UX Design</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">App Development</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Digital Marketing</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Web Development</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Cyber Security</a>
                     </div>
-                    <div className='flex flex-col gap-3'>
-                        <h5 className='text-[20px] font-bold'>Information</h5>
-                        <a className='text-[18px]' href="">Working Process</a>
-                        <a className='text-[18px]' href="">Privacy Policy</a>
-                        <a className='text-[18px]' href="">Terms {"&"} Conditions</a>
-                        <a className='text-[18px]' href="">Faqs</a>
+                    <div className='flex flex-col gap-3 justify-center items-center md:items-start'>
+                        <h5 className='text-[20px] font-bold w-full text-center'>Information</h5>
+                        <a className='md:text-[18px]  text-center w-full' href="">Working Process</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Privacy Policy</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Terms {"&"} Conditions</a>
+                        <a className='md:text-[18px]  text-center w-full' href="">Faqs</a>
                     </div>
 
                 </div>
                 <div className='h-[1px] bg-[#525D7180]'></div>
-                <div className='flex justify-between items-center py-10'>
-                    <div className='text-[#F2F6FF]'>Copyright © 2024 ducor. All rights reserved.</div>
+                <div className='flex flex-col md:flex-row justify-between items-center py-10 gap-5'>
+                    <div className='text-[#F2F6FF] text-center md:text-left'>Copyright © 2024 ducor. All rights reserved.</div>
                     <div className='flex gap-3'>
                         <div className='h-11 w-11 bg-white flex items-center justify-center'><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11.6663 11.2503H13.7497L14.583 7.91699H11.6663V6.25033C11.6663 5.39251 11.6663 4.58366 13.333 4.58366H14.583V1.78374C14.3116 1.7477 13.2855 1.66699 12.2021 1.66699C9.94001 1.66699 8.33301 3.04771 8.33301 5.58342V7.91699H5.83301V11.2503H8.33301V18.3337H11.6663V11.2503Z" fill="#00206D" />
