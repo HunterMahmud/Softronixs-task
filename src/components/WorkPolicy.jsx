@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const WorkPolicy = () => {
     return (
         <div className='bg-[#F2F6FF] font-Grotesk px-2 md:px-5 lg:px-16 xl:px-20 2xl:px-32'>
-            <div className='py-[124px] mx-auto space-y-12'>
+            <div className='py-[80px] md:py-[124px] mx-auto space-y-12'>
                 <div className='flex justify-center items-center'>
                     <h1 className='text-center text-[30px] lg:text-[52px] text-[#00206D] font-bold'>We spend one-third of our life at work</h1>
                 </div>

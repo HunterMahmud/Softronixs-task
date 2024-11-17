@@ -21,8 +21,8 @@ const Home = () => {
            <Services/>
              {/* <AboutUs/> */}
           <WorkPolicy/>
-            {/*  <Project/>
-            <Team/>
+              <Project/>
+          {/*  <Team/>
             <Testimonials/>
             <ConnectWithUs/>
             <Blog/>
