@@ -3,14 +3,14 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Blog = () => {
     return (
-        <div className='my-[124px] w-[1296px] mx-auto space-y-12'>
+        <div className='my-[80px] lg:my-[124px] px-2 md:px-5 lg:px-16 xl:px-20 2xl:px-32 mx-auto space-y-12'>
             <div className='flex justify-center items-center'>
-                <h1 className='text-center w-[636px] text-[52px] text-[#00206D] font-bold'>Recent blog {"&"} articles about technology</h1>
+                <h1 className='text-center max-w-[636px] text-[30px] lg:text-[52px] text-[#00206D] font-bold'>Recent blog {"&"} articles about technology</h1>
             </div>
-            <div className='flex items-center gap-6'>
-                <div className='w-[416px] border-[#656C7E4D] border'>
-                    <div className='w-[416px] h-[320px]'>
-                        <img className='w-[416px] h-[320px]' src="/blog1.png" alt="" />
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                <div className=' border-[#656C7E4D] border'>
+                    <div className=''>
+                        <img className='h-full w-full object-cover' src="/blog1.png" alt="" />
                     </div>
                     <div className='p-5 space-y-3'>
                         <p className='text-[#0147FF] flex gap-2 items-center'>Knowledge
@@ -29,7 +29,7 @@ const Blog = () => {
                             </span>
                             26 June 2024
                         </p>
-                        <h4 className='text-[24px] font-semibold text-[#00206D] '>How You Can Find A Design Job You Will Truly</h4>
+                        <h4 className='text-[18px] lg:text-[24px] font-semibold text-[#00206D] '>How You Can Find A Design Job You Will Truly</h4>
                         
                         <div className='flex items-center gap-1 text-[#0147FF]'>
                             <button className='font-bold '>Read More </button>
@@ -37,9 +37,9 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[416px] border-[#656C7E4D] border'>
-                    <div className='w-[416px] h-[320px]'>
-                        <img className='w-[416px] h-[320px]' src="/blog2.png" alt="" />
+                <div className=' border-[#656C7E4D] border'>
+                    <div className=''>
+                        <img className='h-full w-full object-cover' src="/blog2.png" alt="" />
                     </div>
                     <div className='p-5 space-y-3'>
                         <p className='text-[#0147FF] flex gap-2 items-center'>Knowledge
@@ -58,7 +58,7 @@ const Blog = () => {
                             </span>
                             26 June 2024
                         </p>
-                        <h4 className='text-[24px] font-semibold text-[#00206D] '>The Missing Advice I Needed When Starting My Career</h4>
+                        <h4 className='text-[18px] lg:text-[24px] font-semibold text-[#00206D] '>The Missing Advice I Needed When Starting My Career</h4>
                         
                         <div className='flex items-center gap-1 text-[#0147FF]'>
                             <button className='font-bold '>Read More </button>
@@ -66,9 +66,9 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[416px] border-[#656C7E4D] border'>
-                    <div className='w-[416px] h-[320px]'>
-                        <img className='w-[416px] h-[320px]' src="/blog3.png" alt="" />
+                <div className=' border-[#656C7E4D] border'>
+                    <div className=''>
+                        <img className='h-full w-full object-cover' src="/blog3.png" alt="" />
                     </div>
                     <div className='p-5 space-y-3'>
                         <p className='text-[#0147FF] flex gap-2 items-center'>Knowledge
@@ -87,7 +87,7 @@ const Blog = () => {
                             </span>
                             26 June 2024
                         </p>
-                        <h4 className='text-[24px] font-semibold text-[#00206D] '>How to Craft The Perfect Web Design and Developer</h4>
+                        <h4 className='text-[18px] lg:text-[24px] font-semibold text-[#00206D] '>How to Craft The Perfect Web Design and Developer</h4>
                         
                         <div className='flex items-center gap-1 text-[#0147FF]'>
                             <button className='font-bold '>Read More </button>

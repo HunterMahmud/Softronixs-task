@@ -4,8 +4,8 @@ const ConnectWithUs = () => {
     return (
         <div className='py-[80px] lg:py-[124px] px-2 md:px-5 lg:px-16 xl:px-20 2xl:px-32 bg-[#F2F6FF]'>
             <div className=' bg-white mx-auto  flex flex-col lg:flex-row justify-between gap-10'>
-                <div className=' flex flex-col justify-between  gap-5'>
-                    <h1 className='text-[#00206D] font-bold text-[30px] text-center lg:text-left lg:text-[52px] '>Let’s Build an Awesome Project Together</h1>
+                <div className=' flex flex-col justify-between p-5 lg:p-9 gap-5'>
+                    <h1 className='text-[#00206D] font-bold text-[30px] text-center lg:text-left lg:text-[52px]'>Let’s Build an Awesome Project Together</h1>
                     <p className='text-[#656C7E] text-[17px] lg:text-[18px]  text-center lg:text-left'>Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few clicks. Each demo built with Teba will look different.</p>
 
                     <div className='flex justify-start flex-col md:flex-row gap-5 mx-auto lg:mx-0 max-w-[440px]'>
