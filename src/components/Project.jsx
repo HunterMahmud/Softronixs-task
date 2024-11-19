@@ -11,7 +11,7 @@ const Project = () => {
             </div>
             {/* image people */}
             <div className='space-y-10 '>
-                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7 md:gap-10'>
+                <div className='grid grid-cols-1 md:grid-cols-2 3xl:grid-cols-3 gap-7 md:gap-10'>
                     <div className='space-y-2'>
                         <img className='' src="/people1.png" alt="" />
                         <h4 className='text-[#00206D] text-2xl lg:text-[36px] font-bold'>Market Research and Analysis.</h4>
