@@ -12,25 +12,25 @@ const WorkPolicy = () => {
       title: "Investment Policy",
       description:
         "Morem ipsum dolor sittemet adipiscing Morem ipsum dolor sittemet adipiscing elitflorai psum dolor psum.",
-      icon: "/icon-policy.png",
+      icon: "/icon-policy.svg",
     },
     {
       title: "Finance Planning",
       description:
         "Morem ipsum dolor sittemet adipiscing Morem ipsum dolor sittemet adipiscing elitflorai psum dolor psum.",
-      icon: "/icon-planning.png",
+      icon: "/icon-planning.svg",
     },
     {
       title: "Audit & Assurance",
       description:
         "Morem ipsum dolor sittemet adipiscing Morem ipsum dolor sittemet adipiscing elitflorai psum dolor psum.",
-      icon: "/icon-auditing.png",
+      icon: "/icon-auditing.svg",
     },
     {
       title: "Tax Consulting",
       description:
         "Morem ipsum dolor sittemet adipiscing Morem ipsum dolor sittemet adipiscing elitflorai psum dolor psum.",
-      icon: "/icon-policy.png",
+      icon: "/icon-policy.svg",
     },
   ];
 
