@@ -1,76 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 /* Small Solid Circle */
 .work-policy-pagination-bullet {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #656C7E;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #656c7e;
 }
 
-.work-policy-pagination-bullet:hover{
-        cursor:pointer;
+.work-policy-pagination-bullet:hover {
+  cursor: pointer;
 }
 
 /* Outlined and Filled Circle */
 .work-policy-pagination-bullet-active {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #fff;
-    border: 2px solid #00206D;
-    position: relative;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #00206d;
+  position: relative;
 }
 
 .work-policy-pagination-bullet-active::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #00206D;
-    transform: translate(-50%, -50%);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #00206d;
+  transform: translate(-50%, -50%);
 }
 
 /* team navigation */
 
 /* Small Solid Circle */
 .team-pagination-bullet {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #ffffff;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ffffff;
 }
 
-.team-pagination-bullet:hover{
-        cursor:pointer;
+.team-pagination-bullet:hover {
+  cursor: pointer;
 }
 
 /* Outlined and Filled Circle */
 .team-pagination-bullet-active {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #00206D;
-    border: 2px solid #fff;
-    position: relative;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #00206d;
+  border: 2px solid #fff;
+  position: relative;
 }
 
 .team-pagination-bullet-active::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    transform: translate(-50%, -50%);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transform: translate(-50%, -50%);
 }
+
+/* arrow */
+
