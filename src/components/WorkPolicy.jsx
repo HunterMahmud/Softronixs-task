@@ -48,9 +48,9 @@ const WorkPolicy = () => {
           loop={true}
           pagination={{
             clickable: true,
-            el: ".custom-pagination",
-            bulletClass: "custom-pagination-bullet",
-            bulletActiveClass: "custom-pagination-bullet-active",
+            el: ".work-policy-pagination",
+            bulletClass: "work-policy-pagination-bullet",
+            bulletActiveClass: "work-policy-pagination-bullet-active",
           }}
           navigation={true}
           breakpoints={{
@@ -83,7 +83,8 @@ const WorkPolicy = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="custom-pagination flex justify-center items-center gap-3"></div>
+        <div className="work-policy-pagination flex justify-center items-center gap-3"></div>
+
       </div>
     </div>
   );
