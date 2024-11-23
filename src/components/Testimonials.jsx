@@ -18,7 +18,7 @@ const Testimonials = () => {
             role: "Software Engineer",
             review:
                 "This platform has been a game-changer for my work! The templates are easy to use and perfectly designed. Highly recommended!",
-            image: "./testimoni2.png",
+            image: "https://thumbs.dreamstime.com/b/indian-man-young-good-looking-people-smiling-standing-isolated-white-background-31400054.jpg",
         },
         {
             id: 3,
@@ -26,7 +26,7 @@ const Testimonials = () => {
             role: "CEO, TechWorld",
             review:
                 "I love how customizable and user-friendly the templates are. They’ve saved me hours of work. Simply amazing!",
-            image: "./testimoni3.png",
+            image: "https://www.yourtango.com/sites/default/files/image_blog/2024-09/types-of-singles-professional.png",
         },
     ];
 
@@ -111,7 +111,7 @@ const Testimonials = () => {
                 </div>
                 <p className='text-[18px] text-[#656C7E]'>“ {currentTestimonial.review} ”</p>
                 <div className='flex items-center justify-start gap-3'>
-                    <img className='h-[62] w-[62px] rounded-full' src={`${currentTestimonial.image}`} alt="" />
+                    <img className='h-[62px] w-[62px] rounded-full object-cover' src={`${currentTestimonial.image}`} alt="" />
                     <div className=''>
                         <h5 className='font-bold text-[#180030] text-[20px]'>{currentTestimonial.name}</h5>
                         <p className='text-[#525D71] '>{currentTestimonial.role}</p>
